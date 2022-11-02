@@ -1,6 +1,6 @@
 # Trace-Simplification-to-Aid-Fuzzing
 
-This repository contains five python scripts.
+This repository contains five python scripts. All scripts need to be run as root :/ ...
 
 1. GenerateTraces.py will generate simplified traces for all crashing inputs in the directory pointed to by -i and output the traces to the directory pointed to by -o. It also requires the path to the binary pointed to by -b.
 
