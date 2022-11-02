@@ -1,4 +1,4 @@
-# Trace-Clustering-to-Aid-Fuzzing
+# Trace-Simplification-to-Aid-Fuzzing
 
 This repository contains five python scripts.
 
