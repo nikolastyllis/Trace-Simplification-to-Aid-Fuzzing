@@ -6,7 +6,7 @@ This repository contains five python scripts. All scripts need to be run as root
 
 2. MinimizeCorpus.py will minimize a corpus directory pointed to by -i and output the new corpus to the directory pointed to by -o. It also requires the path to the binary pointed to by -b.
 
-3. TraceClusterer.py will cluster traces in a directory pointed to by -i and output to stdout. It also takes -m the possible number of clusters to probe for optimal k.
+3. TraceClusterer.py will cluster traces in a directory pointed to by -i and output to stdout. It also takes -m the possible number of clusters to probe for optimal k. Make sure -m is less than the number of traces.
 
 4. Deduplicate.py will deduplicate files in the path passed to it.
 
